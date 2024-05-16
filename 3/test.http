@@ -1,0 +1,14 @@
+GET localhost:8080/users HTTP/1.1
+
+###
+
+POST localhost:8080/users HTTP/1.1
+
+{
+    "name": "John Doe",
+    "email": "johndoe@email.com"
+}
+
+###
+
+GET localhost:8080/cpu HTTP/1.1
